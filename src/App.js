@@ -25,6 +25,7 @@ function App() {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
+      {/* so we get our Id parameters. we know that these are inputs that are props transfered to our components. so we our function input for our component will either be props or we will identify it by name. from our example we know we have a picture on the left side. so we put that first. eveything else will be on the right side so we will place it in a div known by the className 'right' we display flex and css that bitch. */}
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">Francois</Greetings>
       <Random min={3} max={50} />
